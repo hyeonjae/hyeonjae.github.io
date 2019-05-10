@@ -9,13 +9,6 @@
   <li><a href="/counter-react-ts">counter-react-ts</a></li>
   <li><a href="/counter-react-ts-redux">counter-react-ts-redux</a></li>
 </ul>  
-<div id="result"></div>
 
-<script>
-var source = new WebSocket("ws://52.79.60.12:10050")
-source.onmessage = function(event) {
-	document.getElementById("result").innerHTML += event.data + "<br>";
-};
-</script>
 </body>
 </html>
